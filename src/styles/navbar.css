@@ -5,11 +5,12 @@
  
 .logo {
    width: 200px;
-   margin: 5px
+   margin: auto;
 }
 
 .navbar-links-item {
    margin: 0%;
    padding: 10px;
    display: inline-block;
+   
 }
