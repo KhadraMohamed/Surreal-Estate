@@ -14,6 +14,9 @@ const AddProperty = () => {
     event.preventDefault();
     axios
       .post("http://localhost:4000/api/v1/PropertyListing")
+      .then((res) => {
+        console.log(res);
+      })
       .catch((error) => {
         console.log(error);
       });
