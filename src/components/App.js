@@ -13,9 +13,6 @@ const App = () => {
         <Route exact path="/" component={Properties} />
         <Route exact path="/add-property" component={AddProperty} />
       </Switch>
-      <header className="App-header">
-        <h2> Surreal Estate </h2>
-      </header>
     </div>
   );
 };
