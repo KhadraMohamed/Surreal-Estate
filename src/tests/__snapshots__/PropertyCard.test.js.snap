@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard renders bathrooms correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders bedrooms correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders city correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders email correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders price correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders title correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PropertyCard renders type correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property-card"
+  >
+    <div
+      class="title"
+    />
+    <div
+      class="type"
+    />
+    <div
+      class="bathrooms"
+    >
+      0
+    </div>
+    <div
+      class="bedrooms"
+    >
+      0
+    </div>
+    <div
+      class="price"
+    >
+      0
+    </div>
+    <div
+      class="city"
+    />
+    <div
+      class="email"
+    />
+  </div>
+</DocumentFragment>
+`;
