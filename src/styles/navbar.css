@@ -1,15 +1,19 @@
 .navbar {
+   height: 100%;
+   background-color:rgb(171, 91, 91);
    border-bottom: grey;
+   display: flex;
+   justify-content: center;
+   
 }
  
 .logo {
    width: 200px;
    margin: auto;
+   text-align: center;
 }
 
 .navbar-links-item {
    margin: 0%;
    padding: 10px;
-   display: inline-block;
-   
-}
+   }
