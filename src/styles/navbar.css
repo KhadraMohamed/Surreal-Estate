@@ -10,7 +10,8 @@
 .logo {
    width: 200px;
    margin: auto;
-   text-align: center;
+   position: relative;
+   left: 135px;
 }
 
 .navbar-links-item {

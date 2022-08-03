@@ -2,17 +2,20 @@
     display: flex;
     flex-direction:column;
     font-size: 20px;
-    border: 2px solid pink;
+    border: 2px solid rgb(198, 85, 104);
     text-align:center;
-    padding: 200px;
+    padding: 100px;
     width: 100px;
     position:absolute;
-    left: 300px;
-    background-color: pink;
+    left: 400px;
+    background-color: rgb(196, 132, 142);
   }
 
 form {
   box-sizing: border-box;
 }
 
+.property-items {
+  font-size: 17px;
+}
  
