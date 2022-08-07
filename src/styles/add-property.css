@@ -5,10 +5,11 @@
     border: 2px solid rgb(198, 85, 104);
     text-align:center;
     padding: 100px;
-    width: 100px;
+    width: 130px;
     position:absolute;
     left: 400px;
     background-color: rgb(196, 132, 142);
+    border-radius: 25px;
   }
 
 form {

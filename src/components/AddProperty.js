@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "../styles/add-property.css";
 import axios from "axios";
-import Alert from "./Alert";
+// import Alert from "./Alert";
 
 const AddProperty = () => {
   const initialState = {
@@ -21,25 +21,25 @@ const AddProperty = () => {
     },
   };
   const [fields, setFields] = useState(initialState.fields);
-  const [alert, setAlert] = useState(initialState.alert);
+  // const [alert, setAlert] = useState(initialState.alert);
   const handleAddProperty = (event) => {
     event.preventDefault();
-    setAlert({ message: "", isSuccess: false });
+    // setAlert({ message: "", isSuccess: false });
     axios
       .post(`http://localhost:4000/api/v1/PropertyListing/`, { ...fields })
       .then((res) => {
         console.log(res);
-        setAlert({
-          message: "Property Added",
-          isSuccess: false,
-        });
+        //   setAlert({
+        //     message: "Property Added",
+        //     isSuccess: false,
+        //   });
       })
       .catch((error) => {
         console.log(error);
-        setAlert({
-          message: "Server error. Please try again later.",
-          isSuccess: false,
-        });
+        // setAlert({
+        //   message: "Server error. Please try again later.",
+        //   isSuccess: false,
+        // });
       });
   };
   const handleFieldChange = (event) => {
@@ -47,11 +47,10 @@ const AddProperty = () => {
   };
   return (
     <div className="add-property">
-      {" "}
       Add Property Page
       <form onSubmit={handleAddProperty}>
-        <Alert message={alert.message} success={alert.isSuccess} />
-        <label htmlFor="title">
+        {/* <Alert message={alert.message} success={alert.isSuccess} /> */}
+        <label className="property-items" htmlFor="title">
           Title
           <input
             id="title"
@@ -60,7 +59,7 @@ const AddProperty = () => {
             onChange={handleFieldChange}
           />
         </label>
-        <label htmlFor="city">
+        <label className="property-items" htmlFor="city">
           <select
             id="city"
             name="city"
@@ -73,7 +72,7 @@ const AddProperty = () => {
             <option value="Liverpool">Liverpool</option>
           </select>
         </label>
-        <label htmlFor="type">
+        <label className="property-items" htmlFor="type">
           <select
             id="type"
             name="type"
@@ -89,8 +88,8 @@ const AddProperty = () => {
             <option value="Bungalow">Bungalow</option>
           </select>
         </label>
-        <label htmlFor="bathrooms">
-          bathrooms
+        <label className="property-items" htmlFor="bathrooms">
+          Bathrooms
           <input
             id="bathrooms"
             name="bathrooms"
@@ -98,8 +97,8 @@ const AddProperty = () => {
             onChange={handleFieldChange}
           />
         </label>
-        <label htmlFor="bedrooms">
-          bedrooms
+        <label className="property-items" htmlFor="bedrooms">
+          Bedrooms
           <input
             id="bedrooms"
             name="bedrooms"
@@ -107,8 +106,8 @@ const AddProperty = () => {
             onChange={handleFieldChange}
           />
         </label>
-        <label htmlFor="email">
-          email
+        <label className="property-items" htmlFor="email">
+          Email
           <input
             id="email"
             name="email"
@@ -116,8 +115,8 @@ const AddProperty = () => {
             onChange={handleFieldChange}
           />
         </label>
-        <label htmlFor="price">
-          price
+        <label className="property-items" htmlFor="price">
+          Price
           <input
             id="price"
             name="price"
