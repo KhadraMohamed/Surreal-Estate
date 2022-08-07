@@ -1,7 +1,7 @@
 .navbar {
    height: 100%;
    background-color:rgb(171, 91, 91);
-   border-bottom: grey;
+   border-bottom: rgb(177, 174, 174);
    display: flex;
    justify-content: center;
    
@@ -11,13 +11,12 @@
    width: 200px;
    margin: auto;
    position: relative;
-   left: 135px;
-   border-radius: 10px;
+   left: -490px;
+   border-radius: 5px;
 }
 
 .navbar-links-item {
    display: flex;
    margin: 0%;
    padding: 10px;
-  
-   }
+}
